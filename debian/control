@@ -1,0 +1,21 @@
+Source: unzip
+Section: utils
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), libbz2-dev, libnatspec-dev, libnatspec0
+Homepage: http://www.info-zip.org/UnZip.html
+Rules-Requires-Root: no
+
+Package: unzip
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: zip
+Multi-Arch: foreign
+Description: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ This version supports encryption.
