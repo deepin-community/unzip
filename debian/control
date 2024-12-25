@@ -1,9 +1,9 @@
 Source: unzip
 Section: utils
 Priority: optional
-Maintainer: Santiago Vila <sanvila@debian.org>
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13), libbz2-dev
+Build-Depends: debhelper-compat (= 13), libbz2-dev, libnatspec-dev
 Homepage: https://infozip.sourceforge.net/UnZip.html
 Rules-Requires-Root: no
 
