@@ -1,3 +1,18 @@
+unzip (6.0.1-deepin1) unstable; urgency=medium
+
+  * Update to 6.0-28.
+  * Apply previous patches:
+    29-natspec-iso-cp-unix.patch
+  * Fix CVE-2022-0529 and CVE-2022-0530.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 25 Dec 2024 15:41:34 +0800
+
+unzip (6.0.1-deepin) stable; urgency=medium
+
+  * ['Rebuild  against by  current gcc 11.2']
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 10 Aug 2022 21:30:35 +0800
+
 unzip (6.0-28) unstable; urgency=medium
 
   * Drop debian/source/lintian-overrides, obsolete since version 6.0-18.
