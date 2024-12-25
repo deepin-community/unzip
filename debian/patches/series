@@ -27,3 +27,4 @@
 27-zipgrep-avoid-test-errors.patch
 28-cve-2022-0529-and-cve-2022-0530.patch
 29-natspec-iso-cp-unix.patch
+30-cve-2021-4217.diff
